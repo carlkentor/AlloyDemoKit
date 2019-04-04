@@ -1,0 +1,20 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@model WeatherBlockViewModel
+
+<div class="border">
+        <h2>@Model.Heading</h2>
+        <p>
+            @Model.Location<br />
+        </p>
+        <div>
+            @Model.Temperature &deg;@Model.Unit
+            Humidity: @Model.Humidity%<br />
+            Pressure: @Model.Pressure hPa<br />
+            Wind: @Model.Windspeed<br />
+            <br />
+            @Model.Time
+        </div>
+
+</div>
