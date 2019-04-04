@@ -62,8 +62,5 @@
       <Version>5.0.0</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Vulcan.config" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

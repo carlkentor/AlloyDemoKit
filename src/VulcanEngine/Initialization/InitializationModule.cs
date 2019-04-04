@@ -10,12 +10,10 @@ namespace VulcanEngine.Initialization
     {
         public void Initialize(InitializationEngine context)
         {
-            throw new System.NotImplementedException();
         }
 
         public void Uninitialize(InitializationEngine context)
         {
-            throw new System.NotImplementedException();
         }
 
         void IConfigurableModule.ConfigureContainer(ServiceConfigurationContext context)
