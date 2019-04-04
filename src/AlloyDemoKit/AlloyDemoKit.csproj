@@ -437,6 +437,10 @@
     <Reference Include="TedGustaf.Episerver.GoogleMapsEditor, Version=1.0.13.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Episerver.GoogleMapsEditor.1.0.13.0\lib\net45\TedGustaf.Episerver.GoogleMapsEditor.dll</HintPath>
     </Reference>
+    <Reference Include="VulcanEngine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\VulcanEngine\bin\Debug\VulcanEngine.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
     </Reference>

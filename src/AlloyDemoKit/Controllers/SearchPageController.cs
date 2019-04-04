@@ -1,6 +1,7 @@
 using AlloyDemoKit.Models.Pages;
 using AlloyDemoKit.Models.ViewModels;
 using System.Web.Mvc;
+using VulcanEngine;
 
 namespace AlloyDemoKit.Controllers
 {
@@ -9,6 +10,8 @@ namespace AlloyDemoKit.Controllers
 
         public ActionResult Index(SearchPage currentPage)
         {
+            var customVulcan = new VulcanCustom();
+            customVulcan.SearchAllContent();
             var model = new SearchContentModel(currentPage)
             {
 

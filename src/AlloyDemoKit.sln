@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlloyDemoKit", "AlloyDemoKit\AlloyDemoKit.csproj", "{6FA51284-08EC-4032-AF77-D6F2ECA790D4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9FB17B66-E07F-4F71-BAD5-01C5D65D56A5} = {9FB17B66-E07F-4F71-BAD5-01C5D65D56A5}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService", "WeatherService\WeatherService.csproj", "{847FDA30-8EC3-48CD-B82B-D7FC4BD54621}"
 EndProject
