@@ -567,6 +567,7 @@
     <Compile Include="Controllers\ProfilePageController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\RssReaderBlockController.cs" />
+    <Compile Include="Controllers\SearchPageController.cs" />
     <Compile Include="Controllers\StartPageController.cs" />
     <Compile Include="Controllers\TagCloudBlockController.cs" />
     <Compile Include="Controllers\VideoFileController.cs" />
