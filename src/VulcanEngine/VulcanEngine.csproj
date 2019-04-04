@@ -42,7 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Initialization\IndexInitializationModule.cs" />
+    <Compile Include="Initialization\InitializationModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\VulcanIndexModifier.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="TcbInternetSolutions.Vulcan.Core">
