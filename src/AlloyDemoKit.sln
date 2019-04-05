@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService", "WeatherSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VulcanEngine", "VulcanEngine\VulcanEngine.csproj", "{9FB17B66-E07F-4F71-BAD5-01C5D65D56A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volcan", "Volcan\Volcan.csproj", "{50B4794F-9C89-4134-B7A8-62C68D4C809E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{9FB17B66-E07F-4F71-BAD5-01C5D65D56A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FB17B66-E07F-4F71-BAD5-01C5D65D56A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FB17B66-E07F-4F71-BAD5-01C5D65D56A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B4794F-9C89-4134-B7A8-62C68D4C809E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B4794F-9C89-4134-B7A8-62C68D4C809E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B4794F-9C89-4134-B7A8-62C68D4C809E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B4794F-9C89-4134-B7A8-62C68D4C809E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

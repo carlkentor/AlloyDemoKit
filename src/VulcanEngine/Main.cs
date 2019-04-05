@@ -26,7 +26,7 @@ namespace VulcanEngine
         public void SearchAllContent()
         {
             var client = _VulcanHandler.GetClient();
-            string searchText = "online";
+            string searchText = "a";
             int currentPage = 1;
             int maxResults = 10;
             var searchScope = new ContentReference[] { ContentReference.StartPage };
